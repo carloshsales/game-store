@@ -1,3 +1,6 @@
+#PROJETO EM CONSTRUÇÃO (o outro repositório foi desativado)
+
+
 # Game Store
 O Game Store é um protótipo de uma loja de jogos construída utilizando ASP.NET 7, Docker, xUnit, Moq, Entity Framework, SQL Server, TDD, Clean Code, Princípios SOLID e Arquitetura Hexagonal.
 

@@ -1,0 +1,12 @@
+D:\my-workspace\C#\game-store\GameStore.API.Catalog\src\GameStore.API.Game.Domain\bin\Debug\net6.0\GameStore.API.Game.Domain.deps.json
+D:\my-workspace\C#\game-store\GameStore.API.Catalog\src\GameStore.API.Game.Domain\bin\Debug\net6.0\GameStore.API.Game.Domain.dll
+D:\my-workspace\C#\game-store\GameStore.API.Catalog\src\GameStore.API.Game.Domain\bin\Debug\net6.0\GameStore.API.Game.Domain.pdb
+D:\my-workspace\C#\game-store\GameStore.API.Catalog\src\GameStore.API.Game.Domain\obj\Debug\net6.0\GameStore.API.Game.Domain.csproj.AssemblyReference.cache
+D:\my-workspace\C#\game-store\GameStore.API.Catalog\src\GameStore.API.Game.Domain\obj\Debug\net6.0\GameStore.API.Game.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\my-workspace\C#\game-store\GameStore.API.Catalog\src\GameStore.API.Game.Domain\obj\Debug\net6.0\GameStore.API.Game.Domain.AssemblyInfoInputs.cache
+D:\my-workspace\C#\game-store\GameStore.API.Catalog\src\GameStore.API.Game.Domain\obj\Debug\net6.0\GameStore.API.Game.Domain.AssemblyInfo.cs
+D:\my-workspace\C#\game-store\GameStore.API.Catalog\src\GameStore.API.Game.Domain\obj\Debug\net6.0\GameStore.API.Game.Domain.csproj.CoreCompileInputs.cache
+D:\my-workspace\C#\game-store\GameStore.API.Catalog\src\GameStore.API.Game.Domain\obj\Debug\net6.0\GameStore.API.Game.Domain.dll
+D:\my-workspace\C#\game-store\GameStore.API.Catalog\src\GameStore.API.Game.Domain\obj\Debug\net6.0\refint\GameStore.API.Game.Domain.dll
+D:\my-workspace\C#\game-store\GameStore.API.Catalog\src\GameStore.API.Game.Domain\obj\Debug\net6.0\GameStore.API.Game.Domain.pdb
+D:\my-workspace\C#\game-store\GameStore.API.Catalog\src\GameStore.API.Game.Domain\obj\Debug\net6.0\ref\GameStore.API.Game.Domain.dll

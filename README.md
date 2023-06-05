@@ -2,7 +2,7 @@
 
 
 # Game Store
-O Game Store é um protótipo de uma loja de jogos construída utilizando ASP.NET 7, Docker, xUnit, Moq, Entity Framework, SQL Server, TDD, Clean Code, Princípios SOLID e Arquitetura Hexagonal.
+O Game Store é um protótipo de uma loja de jogos construída utilizando ASP.NET 7, Docker, xUnit, Moq, Entity Framework, SQL Server, TDD, Clean Code, Princípios SOLID e Clean Archtecture.
 
 ## Pré-requisitos
 Certifique-se de ter os seguintes pré-requisitos instalados em sua máquina:
@@ -55,7 +55,7 @@ Isso irá executar todos os testes unitários utilizando o xUnit.
 - Princípios SOLID, DRY, YAGNI
 
 ### Estrutura de Pastas
-A estrutura de pastas do projeto segue o padrão da Arquitetura Hexagonal:
+A estrutura de pastas do projeto segue o padrão da Clean Archtecture:
 
 - GameStore.API: Contém a camada da API, incluindo controladores e ponto de entrada da aplicação.
 - GameStore.Application: Contém a camada de aplicação, incluindo casos de uso e lógica de negócio.

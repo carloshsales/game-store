@@ -36,6 +36,11 @@ namespace GameStore.API.Game.Domain.Entitites
                 throw new EntityValidationException($"{nameof(Name)} shold not be empty or null");
             if (Description == null)
                 throw new EntityValidationException($"{nameof(Description)} shold not be null");
+            if (Name.Length < 3)
+                throw new EntityValidationException($"{nameof(Name)} shold be at least 3 characters long");
+            if (Name.Length > 25)
+                throw new EntityValidationException($"{nameof(Name)} shold be less or equal 255 characters long");
+
         }
     }
 }

@@ -85,4 +85,27 @@ public class GameTest
         var exception = Assert.Throws<EntityValidationException>(action);
         Assert.Equal("Description shold not be null", exception.Message);
     }
+
+    [Theory(DisplayName = nameof(InstantiateErrorWhenNameIsLessThan3Characters))]
+    [Trait("Domain", "Game - Aggregates")]
+    [InlineData("ab")]
+    [InlineData("a")]
+    public void InstantiateErrorWhenNameIsLessThan3Characters(string invalidName)
+    {
+        Action action = () => new DomainEntity.Game(invalidName, "Game description", 0.0m, "http://image.com", true);
+
+        var exception = Assert.Throws<EntityValidationException>(action);
+        Assert.Equal("Name shold be at least 3 characters long", exception.Message);
+    }
+
+    [Fact(DisplayName = nameof(InstantiateErrorWhenNameIsGreaterThan255Characters))]
+    [Trait("Domain", "Game - Aggregates")]
+    public void InstantiateErrorWhenNameIsGreaterThan255Characters()
+    {
+        string invalidName = new string('A', 255);
+        Action action = () => new DomainEntity.Game(invalidName, "Game description", 0.0m, "http://image.com", true);
+
+        var exception = Assert.Throws<EntityValidationException>(action);
+        Assert.Equal("Name shold be less or equal 255 characters long", exception.Message);
+    }
 }

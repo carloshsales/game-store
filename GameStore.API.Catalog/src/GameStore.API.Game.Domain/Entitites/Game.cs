@@ -34,13 +34,16 @@ namespace GameStore.API.Game.Domain.Entitites
         {
             if (string.IsNullOrWhiteSpace(Name)) 
                 throw new EntityValidationException($"{nameof(Name)} shold not be empty or null");
-            if (Description == null)
-                throw new EntityValidationException($"{nameof(Description)} shold not be null");
             if (Name.Length < 3)
                 throw new EntityValidationException($"{nameof(Name)} shold be at least 3 characters long");
-            if (Name.Length > 25)
+            if (Name.Length > 255)
                 throw new EntityValidationException($"{nameof(Name)} shold be less or equal 255 characters long");
-
+            if (Description == null)
+                throw new EntityValidationException($"{nameof(Description)} shold not be null");
+            if (Description.Length > 10_000)
+                throw new EntityValidationException($"{nameof(Description)} shold be less or equal 10_000 characters long");
+            if (Price < 0) 
+                throw new EntityValidationException($"The {nameof(Price)} should be equal to or greater than 0");
         }
     }
 }

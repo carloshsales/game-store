@@ -100,3 +100,4 @@ D:\my-workspace\C#\game-store\GameStore.API.Catalog\tests\GameStore.API.Catalog.
 D:\my-workspace\C#\game-store\GameStore.API.Catalog\tests\GameStore.API.Catalog.UnitTests\obj\Debug\net6.0\GameStore.API.Game.UnitTests.pdb
 D:\my-workspace\C#\game-store\GameStore.API.Catalog\tests\GameStore.API.Catalog.UnitTests\obj\Debug\net6.0\GameStore.API.Game.UnitTests.genruntimeconfig.cache
 D:\my-workspace\C#\game-store\GameStore.API.Catalog\tests\GameStore.API.Catalog.UnitTests\obj\Debug\net6.0\ref\GameStore.API.Game.UnitTests.dll
+D:\my-workspace\C#\game-store\GameStore.API.Catalog\tests\GameStore.API.Catalog.UnitTests\bin\Debug\net6.0\Bogus.dll

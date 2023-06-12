@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ZD++eG4xDNOonTLBTjdnOTpAM5Ao418NLJ1HX2+dQRjEjHrd9vh0tug+uUzE6e8bZ92iF76ohjZ8Knc9jRJ1pQ==",
+  "dgSpecHash": "E6uy2jEV1G/xV/3SFGaj40Y7OlNbgf4wcCw8WyfoT9sZxbLvNZgA4RnJdWeOoqkVVk6i50ZZNKTFjFm8nyCs/Q==",
   "success": true,
   "projectFilePath": "D:\\my-workspace\\C#\\game-store\\GameStore.API.Catalog\\tests\\GameStore.API.Catalog.UnitTests\\GameStore.API.Game.UnitTests.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\carlo\\.nuget\\packages\\bogus\\34.0.2\\bogus.34.0.2.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\microsoft.net.test.sdk\\17.5.0\\microsoft.net.test.sdk.17.5.0.nupkg.sha512",

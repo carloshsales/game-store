@@ -1,4 +1,4 @@
-﻿using GameStore.API.Game.UnitTests.Domain.Common;
+﻿using GameStore.API.Game.UnitTests.Common;
 using System.Security.Cryptography.X509Certificates;
 using static System.Net.Mime.MediaTypeNames;
 using DomainEntity = GameStore.API.Game.Domain.Entitites;
